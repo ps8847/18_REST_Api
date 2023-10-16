@@ -1,0 +1,21 @@
+REST API
+
+Represenattional state transfter applictaion programming interface 
+
+it is a software that allows two applications to communicat with each other over the internet and through various devces . every time you access app like facebook or check the wheather on your smartphone, an api is used.
+
+
+a restful api is an artitectural syle for an application programmig interface that uses http requests to access and use data. rest is not a programming language.
+
+http://thapatechnical.com/api/users 
+
+to create restfull api its mandatory to use methods like >>  post , get , put , delete
+
+create                post
+read                  get
+update                put  ,  patch
+delete                delete
+
+rest api is statelessness
+
+as per the rest artitecture , the server does not store any state about the client session on the server side . statelessness means that every http request happends in complete isolation. when the client makes an http request, it includes  all information necessary for the server to fulfill that request.
